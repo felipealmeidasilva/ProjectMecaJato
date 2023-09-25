@@ -25,7 +25,7 @@
             <form action="{% url 'clientes'%}" method="POST"> {% csrf_token %}
                     <div class="col-md">
                         <p>Nome:</p>
-                        <input type="text" class="form-control" placeholder="Primeiro nome">
+                        <input type="text" class="form-control" placeholder="Primeiro nome" name="nome">
                     </div>
                     <div class="col-md">
                         <p>Sobrenome:</p>
